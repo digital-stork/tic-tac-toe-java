@@ -58,16 +58,16 @@ the result will be displayed in the console (CMD, Temrinal ...) or on your IDE c
 
 ## Run Tests
 
-```bash
-You have several methods to run the test:
+You have several methods to run the test,
 From IDE :
+```bash
 - Right click on the project: "Run All Tests"
 - Right click on the class (test): "Run"
 - Right click on the method (test): "Run"
 
 ```
 or
-```shell
 You can use the mvn command :
+```shell
 mvn test
 ```
