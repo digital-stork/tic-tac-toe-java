@@ -49,9 +49,9 @@ mvn spring-boot:run
 Our example contains two end points:
 
 - Create Game: [localhost:8080/v0/tictactoe/new](http://localhost:8080/v0/tictactoe/new)
-- Play Game: [localhost:8080/v0/tictactoe/play](localhost:8080/v0/tictactoe/play)
+- Play Game: [localhost:8080/v0/tictactoe/play](http://localhost:8080/v0/tictactoe/play)
 
-You execute the first end point ([localhost:8080/v0/tictactoe/new](http://localhost:8080/v0/tictactoe/new)) which will generate an ID which allows you to play the game in the second end point ([localhost:8080/v0/tictactoe/play](localhost:8080/v0/tictactoe/play)) we give the name of the player (X or O) and the values (between 0 and 2) of each row and column of our matrix (3X3)
+You execute the first end point ([localhost:8080/v0/tictactoe/new](http://localhost:8080/v0/tictactoe/new)) which will generate an ID which allows you to play the game in the second end point ([localhost:8080/v0/tictactoe/play](http://localhost:8080/v0/tictactoe/play)) we give the name of the player (X or O) and the values (between 0 and 2) of each row and column of our matrix (3X3)
 
 ## Display of the result: 
 the result will be displayed in the console (CMD, Temrinal ...) or on your IDE console
